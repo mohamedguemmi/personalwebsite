@@ -1,3 +1,37 @@
-*{
-    background-color: rgb(31, 76, 78);
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+/* 1) Mobile-Version - 640px */
+
+header{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar{
+    list-style-type: none;
+    display: none;
+    justify-content: space-evenly;
+    visibility: hidden;
+}
+
+.navbar > li {
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+/* 2) Tablet-Version - 641-1023px */
+
+/* 3) Desktop-Version - 1024px+ */
