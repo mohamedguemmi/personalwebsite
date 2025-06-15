@@ -32,6 +32,8 @@ main > section h2 {
     color: var(--color-primary);
 }
 
+/*struct: Single-Page-Website; sections, smooth scroll, scroll-point*/
+
 /*
 main > section h2 {
     position: relative;
